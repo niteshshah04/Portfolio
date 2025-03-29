@@ -5,6 +5,7 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import GmailIcon from '../../assets/gmail-icon.svg'
 import instagramIcon from '../../assets/instagram.svg'
+import twitterIcon from '../../assets/twitter.svg'
 
 export function Footer() {
   return (
@@ -54,6 +55,13 @@ export function Footer() {
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
+        </a>
+        <a
+          href="https://x.com/imNiteshShah"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={twitterIcon} alt="Twitter" />
         </a>
       </div>
     </Container>
